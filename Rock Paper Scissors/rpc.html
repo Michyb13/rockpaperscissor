@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rpc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comme:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+    <h1>Rock Paper Scissors</h1>
+    <h3>Select either rock, paper, or scissors and see if you can beat the computer!</h3>
+    <h4><span>Remember</span>: “Rock breaks scissors, scissors cuts paper, paper covers rock.”</h4>
+    <div id="main">
+        <div id="player">
+            <p id="player-score"></p>
+            <p id="player-choice"></p>
+        </div>
+        <div id="computer">
+            <p id="computer-score"></p>
+            <p id="computer-choice"></p>
+        </div>
+    </div>
+        <p id="winner"></p>
+        <div id="selection">
+            <button type="button" value="Rock">Rock</button>
+            <button type="button"  value="Paper">Paper</button>
+            <button type="button" value="Scissors">Scissors</button>
+        </div>
+  </div>
+    <script src="rpc.js"></script>
+</body>
+</html>

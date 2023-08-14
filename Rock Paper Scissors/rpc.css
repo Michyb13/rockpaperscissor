@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Comme', sans-serif;
+}
+
+#container{
+    background: linear-gradient(red,blue);
+    width: 650px;
+    
+    margin: 50px auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#player{
+    margin-right: 50px;
+    font-size: 25px;
+}
+
+#computer{
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+#winner{
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+button{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Comme', sans-serif;
+}
